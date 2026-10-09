@@ -1,0 +1,70 @@
+.app {
+min-height: 100vh;
+font-family: Arial, sans-serif;
+}
+
+.landing-page {
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding: 30px;
+box-sizing: border-box;
+background-image: linear-gradient(
+rgba(0, 0, 0, 0.45),
+rgba(0, 0, 0, 0.45)
+),
+url("https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=1920&q=80");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+color: white;
+}
+
+.landing-content {
+max-width: 700px;
+}
+
+.landing-content h1 {
+font-size: 3rem;
+margin-bottom: 20px;
+}
+
+.landing-content p {
+font-size: 1.2rem;
+line-height: 1.7;
+margin-bottom: 30px;
+}
+
+.get-started-btn {
+padding: 14px 30px;
+background-color: #2e7d32;
+color: white;
+border: none;
+border-radius: 6px;
+font-size: 1rem;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.get-started-btn:hover {
+background-color: #1b5e20;
+}
+
+.about-us {
+padding: 40px 20px;
+max-width: 900px;
+margin: auto;
+line-height: 1.8;
+}
+
+@media (max-width: 600px) {
+.landing-content h1 {
+font-size: 2rem;
+}
+
+.landing-content p {
+font-size: 1rem;
+}
+}
